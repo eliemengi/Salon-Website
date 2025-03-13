@@ -10,6 +10,7 @@ Check it out here: [Salon Website](https://embesser.de)
 - **HTML5 & CSS3** – For structure and styling
 - **JavaScript** – For interactivity
 - **Responsive Design** – Optimized for all screen sizes
+- **PHP** – Handles the contact form submissions securely
 
 ## 📂 Project Structure
 ```
