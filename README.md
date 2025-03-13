@@ -40,6 +40,4 @@ Feel free to fork and improve! PRs are welcome. 🚀
 ## 📬 Contact
 Got feedback or ideas? Reach out!
 
----
-Made with ❤️ and a touch of nerdiness. 😎
 
