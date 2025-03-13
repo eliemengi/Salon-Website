@@ -37,7 +37,9 @@ Check it out here: [Salon Website](https://embesser.de)
 ## 🤝 Contributing
 Feel free to fork and improve! PRs are welcome. 🚀
 
-## 📬 Contact
-Got feedback or ideas? Reach out!
+## 📬 Contact  
+💌 **Email:** eliemengi2@gmail.com 
+💻 **GitHub:** [eliemengi](https://github.com/yeliemengi)  
+📍 **Location:** Bruchsal, Deutschland  
 
 
