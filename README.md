@@ -30,7 +30,7 @@ Check it out here: [Salon Website](https://embesser.de)
 ## 📌 How to Use
 1. Clone the repo:
    ```bash
-   git clone[[ [https://github.com/YOUR_GITHUB_USERNAME/Salon-Website.git](https://eliemengi.github.io/Salon-Website/)](https://eliemengi.github.io/Salon-Website/)](https://eliemengi.github.io/Salon-Website/)
+   git clone https://eliemengi.github.io/Salon-Website/
    ```
 2. Open `index.html` in your browser and explore!
 
