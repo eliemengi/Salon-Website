@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemeinde Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,
+100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1
+,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="index.html"><img src="Images/your logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="course.html">NAILS</a></li>
+            <li><a href="Blog.html">PEDICURE/EYE LASHES</a></li>
+            <li><a href="about.html">ÜBER UNS</a></li> 
+            <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>About Us</h1>
+    </section>
+
+<!--------Über unsere Gemeinde----->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Das sind Wir,</h1>
+            <p>Willkommen in unserem Beauty Salon in Karlsruhe, einem Ort, der sich ganz der 
+                Schönheit und dem Wohlbefinden widmet. Dieser Text ist nur ein Beispiel dafür, 
+                wie eine "Über uns"-Seite aussehen kann. Unser Team von professionellen 
+                Kosmetikerinnen und Stylisten ist leidenschaftlich bemüht, Ihnen die besten Schönheitsbehandlungen und Services zu bieten.
+                Unser Beauty Salon ist stolz auf seine langjährige Erfahrung und seinen ausgezeichneten Ruf in der Region. Wir sind darauf spezialisiert, unseren Kunden ein umfassendes Spektrum an Schönheits- und Wellnessdiensten zu bieten, darunter Maniküre, Pediküre, Gesichtsbehandlungen und entspannende Massagen. Dieser Text ist ein Beispiel und dient nur zur Orientierung.
+                In unserem Salon legen wir großen Wert auf die Verwendung von hochwertigen Produkten und modernen Techniken, um Ihnen das bestmögliche Ergebnis zu bieten. Unsere Philosophie ist es, jedem Kunden ein individuelles und unvergessliches Erlebnis zu bieten, das auf seine spezifischen Bedürfnisse und Wünsche abgestimmt ist.
+                Dieser Text ist ein Beispiel und soll zeigen, wie eine "Über uns"-Seite gestaltet werden kann. Wir sprechen in unserem Salon sowohl Deutsch als auch Englisch, um sicherzustellen, dass sich alle Kunden bei uns willkommen fühlen.
+                 Unsere Behandlungen sind von einer entspannenden Atmosphäre geprägt, die durch beruhigende Musik und angenehme Düfte ergänzt wird. Wir freuen uns darauf, Sie in unserem Salon begrüßen zu dürfen und Ihnen zu helfen, Ihre natürliche Schönheit zu unterstreichen und Ihr Wohlbefinden zu steigern. Dieser Text dient nur als Beispiel, und wir laden Sie herzlich ein, sich von unserem umfassenden Serviceangebot inspirieren zu lassen.</p>
+                <a href="Contact.html" class="hero-btn red-btn">Schreibe uns</a>
+        </div>
+        <div class="about-col">
+            <img src="Images/salon team.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--------Fußzeile----->
+
+<section class="Footer">
+    <h4>Über Uns</h4>
+    <p>Sie können uns <a href="Contact.html">hier</a> erreichen, um mehr über uns zu erfahren. <br> Wir freuen uns darauf, von Ihnen zu hören!</p><br><br>
+        <a href="Impressum.html">Impressum</a>
+      <a href="Daten.html">Datenschutzerklärung</a>
+        <div class="icons">
+            <a href="https://www.instagram.com/emb_rdc" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/elie_rdc" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            
+        </div>
+</section>
+
+    <!--------Über unsere Lehre----->
+<section>
+
+</section>
+<!--------JavaScript-----Menu----->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    } 
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        
+    }
+ </script>
+</body>
+</html>
